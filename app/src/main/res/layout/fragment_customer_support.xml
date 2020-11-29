@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        ></ImageView>
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="18sp"
+        android:text="you can call us on these number or you can send mail at our mail id"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+    <TextView
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL ID:--"
+        android:textColor="@color/darkblue"
+        android:textSize="18sp"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="waterbottle@gmail.com"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+
+    <TextView
+        android:layout_marginTop="@dimen/fivteen_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NO:--"
+        android:textColor="@color/darkblue"
+        android:textSize="18sp"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7667453840"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+    <TextView
+        android:id="@+id/txtSecond"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+
+        android:text="7320032777"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+
+    <TextView
+        android:layout_marginTop="@dimen/fivteen_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp on:--"
+        android:textColor="@color/darkblue"
+        android:textSize="18sp"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:text="7667453840"
+        android:fontFamily="@font/googlesans_bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></TextView>
+
+
+
+</LinearLayout>

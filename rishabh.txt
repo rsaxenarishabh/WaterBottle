@@ -1,0 +1,207 @@
+1-->) http://15.207.46.113/waterbottle/public/api/add-address 
+
+  req->{
+      
+ "user_id":"3",
+    
+   "first_name":"Mohan",
+    
+   "last_name":"Kumar",
+   
+    "email":"mohan@gmail.com",
+  
+     "mobile":"8884849444",
+   
+    "address":"Agra",
+     
+  "city":"Agra",
+   
+    "state":"U.P",
+    
+   "pincode":"283135",
+     
+  "landmark":"Shikohabad Station"
+
+ }
+
+
+
+2-->)   http://15.207.46.113/waterbottle/public/api/update-address 
+
+        req->{
+ 
+     "address_id":"1",
+ 
+      "user_id":"3",
+  
+     "first_name":"Mohan1",
+  
+     "last_name":"Kumar1",
+      
+ "email":"mohan@gmail.com",
+  
+     "mobile":"8884849444",
+     
+  "address":"Agra",
+   
+    "city":"Agra",
+     
+  "state":"U.P",
+      
+ "pincode":"283135",
+  
+   "landmark":"Shikohabad Station"
+
+}
+
+
+
+
+3--> http://15.207.46.113/waterbottle/public/api/delete-address 
+
+req->{
+  
+     "address_id":"2"
+
+}
+
+
+
+4--> http://15.207.46.113/waterbottle/public/api/get-address 
+
+req->{
+      
+ "user_id":"2"
+}
+
+
+
+
+// New Api for login
+
+
+5--->  http://15.207.46.113/waterbottle/public/api/login-register
+
+     req->{
+ 
+  "mobile":"9645796371"
+
+         }
+
+
+
+6--->) http://15.207.46.113/waterbottle/public/api/verify-otp
+ 
+         req->{
+ 
+        "otp":"566266",
+ 
+         "mobile":"9645796371"
+
+           }
+
+
+
+7-->) http://15.207.46.113/waterbottle/public/api/update-mobile 
+req->{
+ 
+   "user_id":"11",
+ 
+  "old_mobile":"9645796371",
+ 
+  "new_mobile":"9646796371"
+
+}
+
+
+
+8--->)  http://15.207.46.113/waterbottle/public/api/verify-mobile
+ 
+req->{
+ 
+  "otp":"791579",
+  
+ "new_mobile":"9646796371"
+
+}
+
+
+
+//New ApI For Dashboard
+
+9--->) http://15.207.46.113/waterbottle/public/api/home
+
+
+{
+  
+"user_id":"2",
+
+  "fcm_token":"fcmtoken12345"
+
+} 
+
+
+
+
+10---->) http://15.207.46.113/waterbottle/public/api/get-quantities
+
+
+
+
+// New Api  for cart
+
+
+11--->) get category Details api with quantities
+array
+Url: http://15.207.46.113/waterbottle/public/api/product-details
+
+req -> {
+  
+     "category_id":"1"
+
+}
+
+
+12--> Add to cart api
+Url: 
+http://15.207.46.113/waterbottle/public/api/add-cart
+
+req -> {
+    
+   "user_id":"3",
+  
+     "product_id":"1",
+   
+    "price":"80",
+   
+    "quantity":"1",
+    
+   "bottle_quantity":"1"
+
+}
+
+
+
+
+
+13---> get cart api
+Url:
+ http://15.207.46.113/waterbottle/public/api/get-cart
+
+req ->{
+  
+     "user_id":"3"
+
+}
+
+
+14---> 
+delete cart api
+Url: 
+http://15.207.46.113/waterbottle/public/api/delete-cart
+
+req -> {
+ 
+   "cart_id":"1"
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.waterbottle.Fragment.dashboard.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.waterbottle.Fragment.myorder.MyOrderFragment"
+        android:label="@string/my_order"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.waterbottle.Fragment.share.ShareFragment"
+        android:label="@string/share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.waterbottle.Fragment.support.CustomerSupportFragment"
+        android:label="@string/Support"
+        tools:layout="@layout/fragment_customer_support" />
+</navigation>

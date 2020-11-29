@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WaterBottle</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="my_order">My Order</string>
+    <string name="share">Share</string>
+    <string name="Support">Support</string>
+    <string name="internet_failed">Check Your Internet Connection </string>
+    <string name="something_went_Wrong">Something Went Wrong!!</string>
+
+
+    <string name="verification_code_subtext">Please type the verification code sent </string>
+    <string name="verification_code">Verification Code</string>
+    <string name="validate">Validate</string>
+    <string name="home_data">You can search here that this service is available in your area or not. </string>
+</resources>

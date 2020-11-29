@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginTop="-13dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refer to your friend and  get a reward"
+                android:textColor="@color/hint_color"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share this link with your friend's "
+                android:textColor="@color/darkblue"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="1dp"
+                android:fontFamily="@font/googlesans_bold"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/fivteen_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on the Share Button and sent the link of WaterBottle Application"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="1dp"
+                android:fontFamily="@font/googlesans_bold"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></TextView>
+
+
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Share"
+                android:background="@drawable/share_background_shape"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
